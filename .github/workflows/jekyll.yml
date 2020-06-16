@@ -16,5 +16,5 @@ jobs:
     - name: Build the site in the jekyll/builder container
       run: |
         docker run \
-        -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
-        jekyll/builder:latest /bin/bash -c "gem install bundler:1.16.1 && chmod 777 /srv/jekyll && jekyll build --future"
+        -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/docs:/srv/jekyll/docs \
+        jekyll/builder:latest /bin/bash -c "gem install bundler:1.16.1 && chmod 777 /srv/jekyll && jekyll build -d docs --future"
