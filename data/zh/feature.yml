@@ -1,0 +1,16 @@
+enable  : true
+item  :
+  - icon  : tf-ion-ios-copy-outline
+    title : 全面
+    description : >
+      Frontend / Backend / DevOps / Cloud Native
+
+  - icon  : tf-ion-ios-alarm-outline
+    title : 前沿
+    description : >
+      紧盯前沿技术
+
+  - icon  : tf-ion-ios-book-outline
+    title : 开放
+    description : >
+      技术实践积累

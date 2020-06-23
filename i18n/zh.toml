@@ -1,0 +1,21 @@
+[about]
+other = "关于"
+[service]
+other = "技术栈"
+[portfolio]
+other = "作品集"
+[blog]
+other = "博客"
+[contact]
+other = "联系我们"
+
+[frontend]
+other = "前端"
+[spring]
+other = "Spring"
+[cloud-native]
+other = "云原生"
+[github]
+other = "github"
+
+

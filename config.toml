@@ -1,0 +1,214 @@
+baseURL = "https://kai.iaircc.com/"
+languageCode = "zh-cn"
+title = "开坑组"
+theme = "navigator-hugo"
+summaryLength = 10
+
+# Build robots.txt file
+enableRobotsTXT = true
+# google analytics tracking id
+googleAnalytics = ""
+
+enableGitInfo = false
+pygmentsCodeFences = true
+
+# Multilangues setup
+# Renders the default content language in subdir, e.g. /en/. The root directory / will redirect to /en/
+defaultContentLanguageInSubdir = true
+DefaultContentLanguage = "zh"
+
+# Site Params
+[params]
+logo = "images/logo.png"
+
+# Gestion des langues : FR / EN / NL / DE
+[[Params.listeLangues]]
+code = "zh"
+# [[Params.listeLangues]]
+# code = "en"
+
+# meta data
+author = "开坑组"
+description = "技术积累"
+
+# Gestion des langues : FR / EN / NL / DE
+[Languages]
+############ 1 - Site zh
+[Languages.zh]
+weight = 1
+languageCode = "zh-cn"
+title = "技术开坑组"
+dateFormat = "2 January 2006"
+
+home = "首页"
+logo = "images/logo.png"
+menufixed = false
+
+footerDescription = "开坑组-一个技术积累博客"
+footerServiceTitle = "技术栈"
+footerQuicklinkTitle = "网站快链"
+footerAboutTitle = "关于"
+footerSubscribeTitle = "订阅"
+
+# Hero Area Section
+[Languages.zh.params.hero]
+enable  = true
+heading = "我们爱折腾！"
+description = "全栈技术开坑组"
+button  = true
+btnText = "了解更多"
+btnURL  = "https://kai.iaircc.com/"
+videoThumb = "images/slider/video-player-thumb.jpg"
+videoURL   = "https://www.youtube.com/embed/g3-VxLQO7do"
+
+# About 2 Section
+[Languages.zh.params.aboutSm]
+enable  = false
+title   = "这是我们"
+description = "探索更多技术可能"
+
+# Blog Section On Homepage
+[Languages.zh.params.blog]
+enable  = true
+topTitle= "技术博客"
+title   = "学习 | 实战 | 积累"
+subtitle= "探索更多技术可能"
+
+# Contact Section
+[Languages.zh.params.contact]
+enable  = false
+topTitle= "DROP US A NOTE"
+title   = "FRANCAIS Contact Us."
+subtitle= "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!"
+address = "14/05, Stockhome <br> Victori Palace , United States"
+phone   = "(03) 9283 2617"
+fax     = "+61 3827 3590"
+facebook= "https://www.facebook.com/"
+twitter = "https://twitter.com/"
+linkedin= "https://www.linkedin.com/"
+dribbble= "https://dribbble.com/"
+instagram= "https://www.instagram.com/"
+mapLatitude = "51.507351"
+mapLongitude= "-0.127758"
+mapMarker   = "images/marker.png"
+
+# Call to Action Section on About Page
+[Languages.zh.params.cta]
+enable  = false
+bg      = "images/call-to-action/call-to-action-bg-2.jpg"
+title   = "FRANCAIS Let's Create Something Together"
+subtitle= "Proin gravida nibh vel velit auctor aliquet. Aenean sollicudin bibendum auctor, <br> nisi elit consequat ipsum, nesagittis sem nid elit. Duis sed odio sitain elit."
+btnText = "Nous contacter"
+
+############# 2 - Site en ENGLISH
+[Languages.en]
+weight = 2
+languageCode = "en-us"
+title = "Example site multi-language"
+dateFormat = "January 2, 2006"
+
+home = "EN Home"
+logo = "images/logo.png"
+menufixed = false
+
+footerDescription = "Integer posuere erat a ante venenati dapibus posuere velit aliquet. Fusce dapibus, tellus cursus commodo, tortor mauris sed posuere."
+footerServiceTitle = "Service"
+footerQuicklinkTitle = "Quicklinks"
+footerAboutTitle = "About"
+footerSubscribeTitle = "Subscribe"
+
+# Hero Area Section
+[Languages.en.params.hero]
+enable  = true
+heading = "We love to make brands grow"
+description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. At quo dolor est incidunt suscipit minima, alias numquam voluptatum rerum porro. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore at laboriosam unde repellat id expedita quae quisquam libero officia consequatur."
+button  = true
+btnText = "Know More"
+btnURL  = "https://themefisher.com/"
+videoThumb = "images/slider/video-player-thumb.jpg"
+videoURL   = "https://www.youtube.com/embed/g3-VxLQO7do"
+
+# About 2 Section
+[Languages.en.params.aboutSm]
+enable  = true
+title   = "We have explored the digital landscape with passion for a long time"
+description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae deleniti ipsa labore necessitatibus culpa veritatis quo accusantium, neque enim ea ad eaque iure, quas tempore velit, quibusdam dolor illo! Explicabo. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid quisquam maiores iste soluta, nihil dolorem?"
+
+# Blog Section On Homepage
+[Languages.en.params.blog]
+enable  = true
+topTitle= "OUR UNTOLD STORY"
+title   = "Blog."
+subtitle= "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!"
+
+# Contact Section
+[Languages.en.params.contact]
+enable  = true
+topTitle= "DROP US A NOTE"
+title   = "Contact Us."
+subtitle= "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!"
+address = "14/05, Stockhome <br> Victori Palace , United States"
+phone   = "(03) 9283 2617"
+fax     = "+61 3827 3590"
+facebook= "https://www.facebook.com/"
+twitter = "https://twitter.com/"
+linkedin= "https://www.linkedin.com/"
+dribbble= "https://dribbble.com/"
+instagram= "https://www.instagram.com/"
+mapLatitude = "51.507351"
+mapLongitude= "-0.127758"
+mapMarker   = "images/marker.png"
+
+# Call to Action Section on About Page
+[Languages.en.params.cta]
+enable  = true
+bg      = "images/call-to-action/call-to-action-bg-2.jpg"
+title   = "Let's Create Something Together"
+subtitle= "Proin gravida nibh vel velit auctor aliquet. Aenean sollicudin bibendum auctor, <br> nisi elit consequat ipsum, nesagittis sem nid elit. Duis sed odio sitain elit."
+btnText = "Contact Us"
+
+# We Used Themefisher Icon font for Icon, for more details check this github repository - https://github.com/themefisher/themefisher-font
+
+# Site Menus
+[menu]
+# Navbar Menus
+[[menu.nav]]
+name    = "service"
+url     = "service"
+weight  = 1
+[[menu.nav]]
+name    = "blog"
+url     = "blog"
+weight  = 2
+[[menu.nav]]
+name    = "portfolio"
+url     = "portfolio"
+weight  = 3
+[[menu.nav]]
+name    = "about"
+url     = "about"
+weight  = 4
+
+# Footer service Menu
+[[menu.service]]
+name    = "frontend"
+url     = "service/fe"
+weight  = 1
+[[menu.service]]
+name    = "spring"
+url     = "service/spring"
+weight  = 2
+[[menu.service]]
+name    = "cloud-native"
+url     = "service/cloud-native"
+weight  = 3
+
+# Footer Quick links Menu
+[[menu.quicklink]]
+name    = "about"
+url     = "about"
+weight  = 1
+[[menu.quicklink]]
+name    = "github"
+url     = "https://github.com/kai-keng"
+weight  = 2

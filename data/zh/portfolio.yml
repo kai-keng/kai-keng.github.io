@@ -1,0 +1,28 @@
+enable  : true
+topTitle: 近期
+title   : 实践项目
+subtitle: 各端产品
+
+filtermenu :
+  - name      : 网站
+    category  : web
+
+  - name      : App
+    category  : app
+
+  - name      : 小程序
+    category  : mini-program
+
+item   :
+  - title : 国盛证券研究所官网
+    image : images/portfolio/portfolio-1.jpg
+    category  : web
+
+  - title : 国盛研究 App
+    image : images/portfolio/portfolio-2.jpg
+    category  : app, ios
+  
+  - title : 国盛研究小程序
+    image : images/portfolio/portfolio-2.jpg
+    category  : mini-program
+  

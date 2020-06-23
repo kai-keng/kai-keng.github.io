@@ -1,0 +1,36 @@
+enable    : true
+topTitle  : 涉及
+title     : 技术栈
+subtitle  : 前后端开发技术
+item      :
+  - icon  : tf-ion-android-favorite
+    title : Vue 框架
+    url   : service/vue
+    list  :
+      - name : Vue@2
+      - name : NuxtJS
+      - name : VueApollo
+
+  - icon  : tf-genius
+    title : React 框架
+    url   : service/react
+    list  :
+      - name : React
+      - name : NextJS
+      - name : React Native
+
+  - icon  : tf-ion-cube
+    title : Spring Web 框架
+    url   : service/spring
+    list  :
+      - name : Spring Boot
+      - name : gRPC
+      - name : more...
+  
+  - icon  : tf-ion-android-cloud-outline
+    title : Cloud Native
+    url   : service/cloud-native
+    list  :
+      - name : Kubernetes
+      - name : Rancher
+      - name : more...
