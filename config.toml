@@ -1,7 +1,7 @@
 baseURL = "https://kai-keng.github.io/"
 languageCode = "zh-cn"
 title = "开坑组"
-theme = "navigator-hugo-k"
+theme = "navigator-hugo"
 summaryLength = 10
 
 # Build robots.txt file
