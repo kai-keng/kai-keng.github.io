@@ -58,8 +58,8 @@ description = "全栈技术开坑组"
 button  = true
 btnText = "了解更多"
 btnURL  = "https://kai.iaircc.com/"
-videoThumb = "images/slider/video-player-thumb.jpg"
-videoURL   = "https://www.youtube.com/embed/g3-VxLQO7do"
+videoThumb = "images/slider/teamwork.jpg"
+# videoURL   = "https://www.youtube.com/embed/g3-VxLQO7do"
 
 # About 2 Section
 [Languages.zh.params.aboutSm]
