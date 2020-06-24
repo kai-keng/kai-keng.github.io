@@ -279,5 +279,5 @@
 
 	var map = $('#map');
 	if (map.length != 0) {
-		google.maps.event.addDomListener(window, 'load', initialize);
+		// google.maps.event.addDomListener(window, 'load', initialize);
 	}
