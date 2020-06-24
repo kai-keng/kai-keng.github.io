@@ -14,7 +14,7 @@ pygmentsCodeFences = true
 
 # Multilangues setup
 # Renders the default content language in subdir, e.g. /en/. The root directory / will redirect to /en/
-defaultContentLanguageInSubdir = true
+defaultContentLanguageInSubdir = false
 DefaultContentLanguage = "zh"
 
 # Site Params
@@ -192,15 +192,15 @@ weight  = 4
 # Footer service Menu
 [[menu.service]]
 name    = "frontend"
-url     = "service/fe"
+url     = "docs-fe"
 weight  = 1
 [[menu.service]]
 name    = "spring"
-url     = "service/spring"
+url     = "docs-spring"
 weight  = 2
 [[menu.service]]
 name    = "cloud-native"
-url     = "service/cloud-native"
+url     = "docs-cloud-native"
 weight  = 3
 
 # Footer Quick links Menu
