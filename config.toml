@@ -58,7 +58,7 @@ heading = "我们爱折腾！"
 description = "全栈技术开坑组"
 button  = true
 btnText = "了解更多"
-btnURL  = "https://kai.iaircc.com/"
+btnURL  = "/service/"
 videoThumb = "images/slider/jon-tyson.jpg"
 # videoURL   = "https://www.youtube.com/embed/g3-VxLQO7do"
 
