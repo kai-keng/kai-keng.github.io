@@ -3,7 +3,7 @@ languageCode = "zh-cn"
 title = "开坑组"
 theme = "navigator-hugo"
 summaryLength = 10
-
+  
 # Build robots.txt file
 enableRobotsTXT = true
 # google analytics tracking id
@@ -38,7 +38,7 @@ description = "技术积累"
 weight = 1
 languageCode = "zh-cn"
 title = "技术开坑组"
-dateFormat = "2 January 2006"
+dateFormat = "2006-01-01"
 
 home = "首页"
 logo = "images/logo.png"
@@ -212,3 +212,11 @@ weight  = 1
 name    = "github"
 url     = "https://github.com/kai-keng"
 weight  = 2
+
+# [markup]
+#   defaultMarkdownHandler = "org"
+#   [markup.goldmark]
+#     [markup.goldmark.parser]
+#       attribute = true
+#       autoHeadingID = true
+#       autoHeadingIDType = "github"

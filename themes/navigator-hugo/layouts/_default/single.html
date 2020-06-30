@@ -1,7 +1,10 @@
 {{ define "main" }}
-
+<!-- 添加 github markdown css 样式 from 字节跳动CDN -->
+<head>
+    <link rel="stylesheet" href="https://s0.pstatp.com/cdn/expire-1-M/github-markdown-css/3.0.1/github-markdown.min.css">
+</head>
 <section class="blog-single section">
-    <div class="container">
+    <div class="container markdown-body">
         <div class="row">
             <div class="col-md-8 mx-auto">
                 <img src="{{ with .Params.image }}{{ . | absURL }}{{ end }}" class="w-100 mb-3" alt="Post-Image">
