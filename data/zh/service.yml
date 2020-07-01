@@ -20,11 +20,12 @@ item      :
       - name : React Native
 
   - icon  : tf-ion-cube
-    title : Spring Web 框架
-    url   : docs-spring
+    title : Java 技术栈
+    url   : java-learning
     list  :
       - name : Spring Boot
-      - name : gRPC
+      - name : Spring Cloud
+      - name : Design Patterns
       - name : more...
   
   - icon  : tf-ion-android-cloud-outline
