@@ -18,7 +18,7 @@ description: "坑位食用指南~"
 
 |     坑位      | 说明 |         地址         | 开坑时间 |   状态   |
 | :-: | :-: | :-: | :-: | :-: |
-|    Spring     |  --  | [点我](/docs-spring) | 2020-06  | `更新中` |
+|    Spring     |  --  | [点我](/java-learning) | 2020-06  | `更新中` |
 | ElasticSearch |  --  |          --          | 2020-06  | `规划中` |
 
 ## NodeJS 技术栈

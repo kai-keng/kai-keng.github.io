@@ -197,7 +197,7 @@ url     = "docs-fe"
 weight  = 1
 [[menu.service]]
 name    = "spring"
-url     = "docs-spring"
+url     = "java-learning"
 weight  = 2
 [[menu.service]]
 name    = "cloud-native"
