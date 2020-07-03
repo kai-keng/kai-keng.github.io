@@ -1,6 +1,6 @@
 ---
 title: "开坑规划"
-date: 2020-06-30T11:01:24+08:00
+date: 2020-07-03T09:50:54+08:00
 image: images/blog/dawn-190055_640.jpg
 author: cc
 description: "坑位食用指南~"
@@ -18,8 +18,8 @@ description: "坑位食用指南~"
 
 |     坑位      | 说明 |         地址         | 开坑时间 |   状态   |
 | :-: | :-: | :-: | :-: | :-: |
-|    Spring     |  --  | [点我](/java-learning) | 2020-06  | `更新中` |
-| ElasticSearch |  --  |          --          | 2020-06  | `规划中` |
+|    Java 入坑指南     |  --  | [详情](https://kai-keng.github.io/java-learning) | 2020-06  | `更新中` |
+| ElasticSearch 入坑指南 |  --  | [详情](https://kai-keng.github.io/docs-elasticsearch) | 2020-06  | `更新中` |
 
 ## NodeJS 技术栈
 
