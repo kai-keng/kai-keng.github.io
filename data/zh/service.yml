@@ -35,3 +35,7 @@ item      :
       - name : Kubernetes
       - name : Rancher
       - name : more...
+
+  - icon  : tf-ion-cube
+    title : Elasticsearch
+    url   : docs-elasticsearch
