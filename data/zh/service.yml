@@ -36,6 +36,6 @@ item      :
       - name : Rancher
       - name : more...
 
-  - icon  : tf-ion-cube
+  - icon  : tf-ion-android-search
     title : Elasticsearch
     url   : docs-elasticsearch
