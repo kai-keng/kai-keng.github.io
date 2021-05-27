@@ -3,22 +3,6 @@ topTitle  : 涉及
 title     : 技术栈
 subtitle  : 前后端开发技术
 item      :
-  - icon  : tf-ion-android-favorite
-    title : Vue 框架
-    url   : docs-fe-vue
-    list  :
-      - name : Vue@2
-      - name : NuxtJS
-      - name : VueApollo
-
-  - icon  : tf-genius
-    title : React 框架
-    url   : docs-fe-react
-    list  :
-      - name : React
-      - name : NextJS
-      - name : React Native
-
   - icon  : tf-ion-cube
     title : Java 技术栈
     url   : java-learning
@@ -26,15 +10,22 @@ item      :
       - name : Spring Boot
       - name : Spring Cloud
       - name : Design Patterns
-      - name : more...
   
   - icon  : tf-ion-android-cloud-outline
     title : Cloud Native
     url   : docs-cloud-native
     list  :
+      - name : Docker
       - name : Kubernetes
-      - name : Rancher
-      - name : more...
+      - name : Service Mesh
+  
+  - icon  : tf-ion-android-cloud-outline
+    title : Database
+    url   : docs-database
+    list  :
+      - name : MySQL
+      - name : Redis
+      - name : MongoDB
 
   - icon  : tf-ion-android-search
     title : Elasticsearch
